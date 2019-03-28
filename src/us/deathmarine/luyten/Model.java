@@ -75,7 +75,7 @@ public class Model extends JSplitPane {
 	private static final long serialVersionUID = 6896857630400910200L;
 
 	private static final long MAX_JAR_FILE_SIZE_BYTES = 10_000_000_000L;
-	private static final long MAX_UNPACKED_FILE_SIZE_BYTES = 10_000_000L;
+	private static final long MAX_UNPACKED_FILE_SIZE_BYTES = 100_000_000L;
 
 	private static LuytenTypeLoader typeLoader = new LuytenTypeLoader();
 	public static MetadataSystem metadataSystem = new MetadataSystem(typeLoader);
